@@ -1,0 +1,33 @@
+\documentclass{article}
+\usepackage{progressbar}
+\usepackage{enumitem}
+\usepackage{xcolor}
+
+\newcommand{\skillbar}[1]{%
+\begin{progressbar}[width=0.9\linewidth, linecolor=black, filledcolor=yellow,
+emptycolor=white]{#1}
+\end{progressbar}}
+
+\begin{document}
+{\color{magenta}
+\part*{PROGRESS BAR}}
+
+\section{How to design a \colorbox{magenta}{PROGRESS BAR?}}
+\section*{IT}
+
+\textbf{Python}  \\
+\skillbar{0.9} \\      
+\textbf{Java}  \\
+\skillbar{0.4}
+
+\section{How to style a \colorbox{magenta}{PROGRESS BAR?}}
+
+\section*{Languages}
+\begin{itemize}[leftmargin=*]
+\item \textbf{English}  \\
+\skillbar{0.8} 
+\item \textbf{German}  \\
+\skillbar{0.6}
+\end{itemize}
+
+\end{document}
